@@ -1,0 +1,70 @@
+/* CSS DO COMPONENTE HEADER */
+
+.nav{
+  display: flex;
+  justify-content: end; 
+}
+
+.nav2{
+  display: flex;
+  justify-content: start;
+}
+
+.naav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+.title{
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  color:aliceblue;
+  margin-top: 30px;
+  margin-right: 2%;
+  margin-top: 2%;
+  width: 100%;
+    
+}
+
+.sino{
+ margin-right: 2%;
+ margin-top: -0.2%;
+    
+}
+
+.title2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  width: 100%;
+  color:aliceblue;
+  margin-top: 0%;
+  /* margin-left: 10px; */
+}
+
+/* CSS DO COMPONENTE FOOTER */
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 5px;
+  color:aliceblue;
+  background-color: red;
+}
+
+.botao {
+  background-color: red;
+}

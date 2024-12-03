@@ -1,0 +1,78 @@
+.form {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #e0dede;
+
+    
+
+}
+
+.inputButton {
+  border: none;
+  background:red;
+  color: white;
+  padding: 10px 25px;
+  margin: 8px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.inputBox {
+  height: 25px;
+  width: 520px;
+  font-size: small;
+  border-radius: 4px;
+  border: 3px solid grey;
+  padding-left: 8px;
+}
+
+.option{
+   width: 15%;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+
+.form label {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form input {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title{
+    margin-left: 30%;
+    margin-top: 1%;
+    border-style: groove;
+    margin-right: 30%;
+    background-color: #bebebb;
+}
+
+.button {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #bebebb;
+  }
+
+  .revelar {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1%;
+    align-items: end;
+  }
+
+  .option {
+    margin-top: 1%;
+  }
+
+

@@ -1,0 +1,126 @@
+.form {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #e0dede;
+    margin-bottom: 1px;
+
+}
+
+.option{
+   width: 45%;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+
+.form label {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form input {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title{
+    margin-left: 25%;
+    margin-top: 5%;
+    border-style: groove;
+    margin-right: 25%;
+    background-color: #bebebb;
+}
+
+.button {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #bebebb;
+  }
+
+  .revelar {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1%;
+    align-items: end;
+  }
+
+.title{
+  margin-left: 25%;
+  margin-top: 1%;
+  border-style: groove;
+}
+
+.inputButton {
+  border: none;
+  background:red;
+  color: white;
+  padding: 10px 25px;
+  margin: 8px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space;
+  margin-top: 10px;
+  margin-left: 270px;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  height: 30px;
+  width: 210px;
+  font-size: small;
+  border-radius: 2px;
+  border: 3px solid grey;
+  padding-left: 10px;
+  background-color:#e0dede;
+  margin-left: 370px;
+}
+
+.inputType {
+  height: 30px;
+  width: 210px;
+  font-size: small;
+  border-radius: 2px;
+  border: 3px solid grey;
+  padding-left: 10px;
+  background-color:#e0dede;
+  
+}
+  
+
+.notificacao {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+.notificacaoErro {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8a1007;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
